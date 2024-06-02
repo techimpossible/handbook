@@ -8,10 +8,11 @@ body {
 }
 
 header {
-  background: #0B3D91;
+  background: #3d3d3d;
   color: #fff;
-  padding: 1rem 0;
+  padding: 2rem 0;
   text-align: center;
+  border-bottom: 2px solid #eaeaea;
 }
 
 header h1 {
@@ -33,7 +34,7 @@ main {
 main h1,
 main h2,
 main h3 {
-  color: #0B3D91;
+  color: #3d3d3d;
 }
 
 footer {
@@ -66,4 +67,22 @@ pre {
 
 code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #3d3d3d;
+  margin-bottom: 1rem;
+}
+
+.section-content {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 2rem;
 }
